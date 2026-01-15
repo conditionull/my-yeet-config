@@ -3,7 +3,7 @@
 name = "Logout"
 exec = "hyprctl dispatch exit"
 icon = "system-log-out"
-keywords = ["logout", "exit"]
+keywords = ["exit"]
 
 [[apps.custom]]
 name = "Shutdown"
@@ -24,3 +24,10 @@ initial_results = 5   # Results shown before typing (0 = just search bar)
 
 [apps]
 exclude = ["Avahi SSH Server Browser", "Avahi VNC Server Browser", "Avahi Zeroconf Browser", "CMake", "btop++"]
+
+# Custom app entries
+[[apps.custom]]
+name = "Pogostuck Split Tracker"
+exec = "/home/doccia/workspace/github/pogostuck-split-tracker/dist/pogostuck-split-tracker-1.1.1.AppImage"
+icon = "input-gaming"
+keywords = ["pogosplit", "split"]
